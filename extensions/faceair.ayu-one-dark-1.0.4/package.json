@@ -1,0 +1,46 @@
+{
+	"name": "ayu-one-dark",
+	"displayName": "Ayu One Dark",
+	"description": "An theme base on `Any Dark` and `One Dark Pro` theme.",
+	"version": "1.0.4",
+	"publisher": "faceair",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/faceair/vscode-ayu-onedark"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"ayu",
+		"one-dark",
+		"ayu-one-dark"
+	],
+	"homepage": "https://github.com/faceair/vscode-ayu-onedark",
+	"icon": "assets/logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ayu One Dark",
+				"uiTheme": "vs-dark",
+				"path": "./ayu-one-dark.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "vsce package"
+	},
+	"devDependencies": {
+		"vsce": "1.22.0"
+	},
+	"__metadata": {
+		"id": "a9803533-a0b9-47e2-8c49-cfb46d2b5a10",
+		"publisherId": "c264e577-e3dd-4763-b0c4-302948dd8b25",
+		"publisherDisplayName": "faceair"
+	}
+}
